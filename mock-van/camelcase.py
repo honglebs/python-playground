@@ -2,10 +2,10 @@
 
 #function takes in a STRING as parameter 
 # function is expected to return an INTEGER
+
+# ====== NOTES ======= #
 # oneTwoThree → 3
 # thisIsAnExampleOfCamelCase → 7
-
-
 
 def camelcase(s):
     # init count, start at 1 since counting first word is lowercase oneTwoThree
@@ -17,7 +17,7 @@ def camelcase(s):
         if c.isupper():
             count += 1
 
-    # return count of words         
+    # return count of words
     return count
 
 print(camelcase("oneTwoThree"))
