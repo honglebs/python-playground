@@ -1,4 +1,6 @@
+# Capitalize string (s)
 
+# ====== NOTES ======= #
 # "hong le" --> "Hong Le"
 # .split "hong le" --> "hong" "le"
 # .capitalize() --> "Hong"
