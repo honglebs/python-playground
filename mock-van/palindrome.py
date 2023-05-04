@@ -10,3 +10,6 @@
 # aaab --> [3] 
 # baa --> [0]
 # aaa --> [-1]
+
+def palindrome(s):
+    return None
