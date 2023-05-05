@@ -20,26 +20,28 @@ special_characters = "!@#$%^&*()-+"
 
 # ====== NOTES ====== #
 
+# def minimumNumber(n, password):
+#     # Return the minimum number of characters to make the password strong
+    
+#     count = 0
+
+#     if not any (char.isdigit() for char in password):
+#         count += 1
+    
+#     if not any (char.islower() for char in password):
+#         count += 1
+    
+#     if not any (char.isupper() for char in password):
+#         count += 1
+    
+#     if not any (char in special_characters for char in password):
+#         count += 1
+    
+#     if n < 6:
+#         count += 6 - n
+
+#     return count
+
+
 def minimumNumber(n, password):
-    # Return the minimum number of characters to make the password strong
-    
-    count = 0
-
-    if not any (char.isdigit() for char in password):
-        count += 1
-    
-    if not any (char.islower() for char in password):
-        count += 1
-    
-    if not any (char.isupper() for char in password):
-        count += 1
-    
-    if not any (char in special_characters for char in password):
-        count += 1
-    
-    if n < 6:
-        count += 6 - n
-
-    return count
-
-print(minimumNumber(1, 'pass23'))
+    return None
