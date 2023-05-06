@@ -68,4 +68,4 @@ print(repeatedString("aa", 7))
 #                     aa.aa.aa.a --> 3.5 --> 3
 print(repeatedString("ba", 12))
 #                     ba.ba.ba.ba.ba.ba
-print(repeatedString("aa", 1))
+print(repeatedString("aa", 2))
