@@ -43,5 +43,33 @@ special_characters = "!@#$%^&*()-+"
 #     return count
 
 
+# ===================================================================== #
+
 def minimumNumber(n, password):
-    return None
+
+    count = 0
+
+    # Check if the password is missing a digit
+    if not any(char.isdigit() for char in password):
+        count += 1
+
+    # Check if the password is missing a lowercase letter
+    if not any(char.islower() for char in password):
+        count += 1
+
+    # Check if the password is missing an uppercase letter
+    if not any(char.isupper() for char in password):
+        count += 1
+
+    # Check if the password is missing a special character
+    if not any(char in "!@#$%^&*()-+" for char in password):
+        count += 1
+
+    # Check if the password is too short
+    # we first check if the password is less than 6 characters long and if there are still more than 6 - n missing character types. 
+    # If that's the case, we add the difference between 6 - n - count to the count variable.
+    if n < 6 and count < 6 - n:
+        count += 6 - n - count
+
+    # Return the count of missing character types
+    return count
