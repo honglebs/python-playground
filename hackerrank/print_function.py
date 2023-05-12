@@ -5,7 +5,7 @@
 def printNumbers(n):
     numbers_list = []
     for i in range(1, n + 1):
-        numbers_list.append(i)
-    return numbers_list
+        numbers_list.append(str(i))
+    return ''.join(numbers_list)
 
-printNumbers(3)
+print(printNumbers(3))
