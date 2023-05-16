@@ -15,3 +15,5 @@
 def miniMaxSum(arr):
     # write some code here
     return None
+
+# more notes
