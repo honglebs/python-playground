@@ -22,6 +22,9 @@
 
 # print(pageCount(5, 4))
 
+# what other ways can this be completed
+
+# pageCount function the minium amt of page turns to get to your desired page
 def pageCount(n, p):
     # Calculate the number of pages to turn from the beginning
     pages_from_front = p // 2
