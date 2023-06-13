@@ -23,3 +23,15 @@ class Solution(object):
         # iterate through the input list of numbers
         for i, num in enumerate(nums):
             # calculate the complement value needed to reach the target
+            complement = target - num
+
+            # check if the complement exists in the dictionary 
+            if complement in complements:
+                # if it exists, return the indices of the current number & it's complements
+                return [complements[complement], i]
+            
+            # add the current number and its index to the dictionary 
+            complements[num] = i
+
+        # if no solution is found, return an empty list
+        return []
