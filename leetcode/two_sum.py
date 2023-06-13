@@ -17,4 +17,9 @@ class Solution(object):
         :rtype: List[int]
         """
 
-    
+        # create a dictionary to store the complements values
+        complements = {}
+
+        # iterate through the input list of numbers
+        for i, num in enumerate(nums):
+            # calculate the complement value needed to reach the target
