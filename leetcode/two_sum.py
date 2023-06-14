@@ -35,3 +35,6 @@ class Solution(object):
 
         # if no solution is found, return an empty list
         return []
+
+
+## Find another way to solve the solution without enumerating
