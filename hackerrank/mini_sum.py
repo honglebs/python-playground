@@ -13,7 +13,12 @@
 # the function would print 16 24
 
 def miniMaxSum(arr):
-    # write some code here
-    return None
+    #1 sort the array in ascending order
+    arr.sort()
 
-# more notes
+    #2 calculate the sum of all elements
+
+    #3 find the minimum sum
+
+    #4 find the maximum sum
+
