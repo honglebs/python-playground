@@ -17,8 +17,19 @@ def miniMaxSum(arr):
     arr.sort()
 
     #2 calculate the sum of all elements
+    total_sum = sum(arr)
 
     #3 find the minimum sum
+    min_sum = total_sum - arr[-1]
 
     #4 find the maximum sum
+    max_sum = total_sum - arr[0]
+
+    return min_sum, max_sum
+
+
+# Test example
+arr = [1, 3, 5, 7, 9]
+min_sum, max_sum = miniMaxSum(arr)
+print(min_sum, max_sum)
 
