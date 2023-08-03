@@ -10,6 +10,7 @@ clock = pygame.time.Clock()
 running = True
 dt = 0 
 
+#player position on a 2D vector graph
 player_pos = pygame.Vector2(screen.get_width() / 2, screen.get_height() / 2)
 
 while running:
