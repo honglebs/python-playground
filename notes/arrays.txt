@@ -1,0 +1,7 @@
+1. RAM
+2. Static Arrays
+3. Dynamic Arrays
+4. Stacks 
+
+
+
