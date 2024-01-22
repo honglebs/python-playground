@@ -1,0 +1,17 @@
+ONIST SPACE TOOL IDEAS 
+
+1. Satellite Tracker and Identifier
+    - Starlink API v4 : https://api.spacexdata.com/v4/starlink/, https://docs.spacexdata.com/#d65a7f85-e0c7-41ce-b41d-9ad20a238d90
+    - CelesTrack API : https://celestrak.org/
+
+2. Space Debris Monitor
+    - 3D Debris Map : http://astria.tacc.utexas.edu/AstriaGraph/, 
+                    https://github.com/ut-astria/orbdetpy
+    - 
+
+3. International Space Station (ISS) Observer
+
+4. Space Weather Monitor 
+
+
+
