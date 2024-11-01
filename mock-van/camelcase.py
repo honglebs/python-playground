@@ -22,3 +22,4 @@ def camelcase(s):
 
 print(camelcase("oneTwoThree"))
 print(camelcase("thisIsTheSuperLongString"))
+
