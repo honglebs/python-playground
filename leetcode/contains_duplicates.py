@@ -18,9 +18,7 @@
 
 # Approach 1: Brute Force
 # aka, the worst one since the time complexitity is O(n^2) --> uses nested loops to generate and all pairs possible
-
-
-class Solution: 
+class SolutionBruteForce: 
     def containsDuplicate(self, nums):
         n = len(nums)
 
@@ -30,9 +28,22 @@ class Solution:
                     return True
         return False
 
+
 # Approach 2: Sorting 
+# approach is O(n log n)
+class SolutionSorting: 
+    def containsDuplicates(self, nums):
+        nums.sort()
+        n = len(nums)
+
+        for i in range (1, n):
+            if nums[i] == nums[i - 1]:
+                return True
+        return False
+
 
 # Approach 3: Hashset 
+
 
 # Approach 4: Hashmap
 
