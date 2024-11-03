@@ -17,6 +17,18 @@
 """
 
 # Approach 1: Brute Force
+# aka, the worst one since the time complexitity is O(n^2) --> uses nested loops to generate and all pairs possible
+
+
+class Solution: 
+    def containsDuplicate(self, nums):
+        n = len(nums)
+
+        for i in range (n - 1):
+            for j in range (i + 1, n):
+                if nums[i] == nums[j]:
+                    return True
+        return False
 
 # Approach 2: Sorting 
 
