@@ -30,7 +30,8 @@ class SolutionBruteForce:
 
 
 # Approach 2: Sorting 
-# approach is O(n log n)
+# sorting the array in ascending order and then checks for adjacent elements that are the same
+# if duplicates are found, returns true, approach is O(n log n) 
 class SolutionSorting: 
     def containsDuplicates(self, nums):
         nums.sort()
@@ -56,8 +57,22 @@ class SolutionHashSet:
 
 
 # Approach 4: Hashmap
+# this is similar to hash set but it also keep track of the count of occurrences for each
+# element, store the elements as keys and thier counts as values
+class SolutionHashMap:
+    def containsDuplicates2(self, nums):
+        seen = {}
 
-#===================================================================
+        for num in nums:
+            if num in seen and seen[num] >= 1:
+                return True
+            seen[num] = seen.get(num, 0) + 1
+        return False
+
+
+#======================================================================================================
+#======================================================================================================
+#======================================================================================================
 
 class Microwave:
     def __init__(self, brand: str, power_rating: str) -> None:
