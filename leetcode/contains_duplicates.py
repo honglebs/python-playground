@@ -16,3 +16,12 @@
 
 """
 
+# Approach 1: Brute Force
+
+# Approach 2: Sorting 
+
+# Approach 3: Hashset 
+
+# Approach 4: Hashmap
+
+
