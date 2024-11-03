@@ -43,6 +43,16 @@ class SolutionSorting:
 
 
 # Approach 3: Hashset 
+# uses the hash set data structure to store encountered elements 
+class SolutionHashSet:
+    def containsDups(self, nums):
+        seen = set()
+
+        for num in nums:
+            if num in seen:
+                return True
+            seen.add(num)
+        return False
 
 
 # Approach 4: Hashmap
