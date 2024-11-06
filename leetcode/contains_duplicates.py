@@ -45,6 +45,7 @@ class SolutionSorting:
 
 # Approach 3: Hashset 
 # uses the hash set data structure to store encountered elements 
+# time complexity is O(n)
 class SolutionHashSet:
     def containsDups(self, nums):
         seen = set()
@@ -58,7 +59,7 @@ class SolutionHashSet:
 
 # Approach 4: Hashmap
 # this is similar to hash set but it also keep track of the count of occurrences for each
-# element, store the elements as keys and thier counts as values
+# element, store the elements as keys and thier counts as values, time complexity O(n)
 class SolutionHashMap:
     def containsDuplicates2(self, nums):
         seen = {}
@@ -73,6 +74,19 @@ class SolutionHashMap:
 #======================================================================================================
 #======================================================================================================
 #======================================================================================================
+
+"""
+1. Two Sum
+2. Roman to Integer
+3. Palindrome Number
+4. Maximum Subarray
+5. Remove Element
+6. Contains Duplicate
+7. Add Two Numbers
+8. Majority Element
+9. Remove Duplicates from Sorted Array
+--> Practice them in a row for better understanding
+"""
 
 class Microwave:
     def __init__(self, brand: str, power_rating: str) -> None:
