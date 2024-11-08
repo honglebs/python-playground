@@ -47,4 +47,15 @@ class Solution(object):
         'M': 1000
     }
 
+    # init results to add the integer value 
+    total = 0
+
+    # loop through char in string 's'
+    for i in range(len(s)):
+        # check if not at the last char 
+
+        if i < len(s) - 1 and roman_values[s[i]] < roman_values[s[i + 1]]:
+
+            
+
 
