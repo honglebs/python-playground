@@ -30,7 +30,7 @@ so, we need to understand that there are key rules for roman numerals
 """
 
 class Solution(object):
-    def romanToInt(self, s):
+    def romanToInt(self, strings):
         """
         :type s: str
         :rtype: int
@@ -50,12 +50,6 @@ class Solution(object):
     # init results to add the integer value 
     total = 0
 
-    # loop through char in string 's'
-    for i in range(len(s)):
-        # check if not at the last char 
+    # creating the for loop 
 
-        if i < len(s) - 1 and roman_values[s[i]] < roman_values[s[i + 1]]:
-
-            
-
-
+    

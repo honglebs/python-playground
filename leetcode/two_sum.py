@@ -101,12 +101,12 @@ First Number: 1
 
 Complement Calculation: 8 - 1 = 7
 Interpretation: To get a sum of 8 with 1, we need to find a 7 somewhere in nums.
-Since 7 hasn’t been seen yet, we add 1 to our hashmap.
+Since 7 hasn't been seen yet, we add 1 to our hashmap.
 Second Number: 3
 
 Complement Calculation: 8 - 3 = 5
 Interpretation: To get a sum of 8 with 3, we need to find a 5 in nums.
-Since 5 hasn’t been seen yet, we add 3 to our hashmap.
+Since 5 hasn't been seen yet, we add 3 to our hashmap.
 Third Number: 5
 
 Complement Calculation: 8 - 5 = 3
