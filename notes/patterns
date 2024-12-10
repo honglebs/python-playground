@@ -1,0 +1,8 @@
+There are multiple patterns to undertsand when grinding leetcode style questions. 
+Some patterns noticed:
+    1. Sliding window 
+    2. Arrays 
+    3. Binary Search -> Monotomic 
+    4. DFS
+    5. BFS
+
